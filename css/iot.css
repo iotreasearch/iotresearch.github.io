@@ -1,0 +1,18 @@
+body {padding:0px;background-color: #9090FF;} 
+header{background-color:#8080FF;text-align: center;}
+
+.pageHeader{left:148px;}
+
+.pageTitle{width:100%;text-transform: capitalize;font-size:200%;}
+
+.logo{width:100%;padding:0px;margin:0px;}
+
+.sideBar{width:148px;background-color:lightgray;height:100%;position:fixed;left:0px;top:0px;overflow: auto;padding:0px;}
+.sideBarList{list-style-type: none;margin:0px;padding:0px;}
+.sideBarItem{padding:0px;}
+.sideBarLink{display:block;text-align: center;text-decoration: none;color:black;padding:8px}
+.mainBody{float:left;width:87.5%;margin-left:148px;}
+
+.newsItem{float:left;width:100%;background-color: lightgray}
+.newsItemInfo {float:left; width:25%}
+.newsItemData{float:left;width:75%}

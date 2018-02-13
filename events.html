@@ -1,0 +1,69 @@
+<!doctype html>
+<html lang="en-US">
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Swinburne IoT Lab</title>
+	<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css"> 
+</head>
+<body class="w3-light-gray">
+	<nav class="w3-sidebar w3-collapse w3-white w3-top" style="width:148px;" id="mySidebar">
+		<div>
+			<image class="w3-image" href="https://swin.edu.au" src="/images/logo-xl.png"/>
+		</div>
+		<div class="w3-bar-block">
+			<a href="#" class="w3-bar-item w3-button w3-padding-16 w3-hide-large w3-dark-grey w3-hover-black" onclick="w3_close()" title="close menu">Close Menu</a>
+			<a class="w3-bar-item w3-button w3-padding" href="">Home</a>
+			<a class="w3-bar-item w3-button w3-padding" href="/news">News</a>
+			<a class="w3-bar-item w3-button w3-padding w3-red" href="/events">Events</a>
+			<a class="w3-bar-item w3-button w3-padding" href="/papers">Papers</a>
+			<a class="w3-bar-item w3-button w3-padding" href="/projects">Projects</a>
+			<a class="w3-bar-item w3-button w3-padding" href="/members">Members</a>
+		</div>
+	</nav>
+	<div class="w3-main" style="margin-left:148px;">
+		<div class = "w3-bar w3-black w3-large w3-center">
+			<button class="w3-bar-item w3-button w3-hide-large w3-hover-none w3-hover-text-light-grey" onclick="w3_open();"><em class="fa fa-bars"></em> &nbsp;Menu</button>
+			<h1>Swinburne IoT Lab</h1>
+		</div>
+		<div class="w3-center"><h2><b>Events</b></h2></div>
+		<div class="w3-panel">
+			<div class="w3-card">
+				<header class="w3-container w3-gray w3-center"><h3>Example Title</h3></header>
+				<div class = "w3-container w3-center"><p>Some data</p></div>
+				<footer class="w3-container w3-gray w3-center">Prem, 21/12/2017</footer>
+			</div>
+		</div>
+		<div class="w3-panel">
+			<div class="w3-card">
+				<header class="w3-container w3-gray w3-center"><h3>Example Title 2</h3></header>
+				<div class = "w3-container w3-center"><p>Some more data</p></div>
+				<footer class="w3-container w3-gray w3-center">Josip, 20/12/2017</footer>
+			</div>
+		</div>
+		<footer class="w3-container w3-black w3-center">
+			&copy;Swinburne University 2017
+		</footer>
+	</div>
+	
+	<script>
+		// Get the Sidebar
+		var mySidebar = document.getElementById("mySidebar");
+
+		// Toggle between showing and hiding the sidebar, and add overlay effect
+		function w3_open() {
+			if (mySidebar.style.display === 'block') {
+				mySidebar.style.display = 'none';
+			} else {
+				mySidebar.style.display = 'block';
+			}
+		}
+
+		// Close the sidebar with the close button
+		function w3_close() {
+			mySidebar.style.display = "none";
+		}
+	</script>
+</body>
+</html>
